@@ -15,6 +15,7 @@
 
     <!-- navigation -->
     <header>
+
         <h1 href="/"><span id="jim">Jim</span>Karavitis</h1>
         <nav id="intra">
             <ul>
@@ -29,19 +30,22 @@
                 </li>
             </ul>
         </nav>
+
     </header>
     <!-- end navigation -->
     
     <!-- hero -->
-    <section class="hero">
-        <!-- about me -->
-        <h2>
-            About Me
-        </h2>
+    <section id="about-me" class="hero">
+
+        <div class="flex-row">
+            <h2>
+                About Me
+            </h2>
+        </div>
         
         <article id="hero-info">
             <div class="flex-row">
-                <div id="about-me">
+                <div id="">
                     <!-- continue to update as skills, resume and portfolio improve -->
                     <p>
                         In 2018, I graduated from the University of Connecticut with a Bachelor of Arts in Economics. 
@@ -50,7 +54,7 @@
                         Jim is a certified Microsoft Office Specialist: Excel 2019 Expert. 
                         Through applications deployed in and out of a classroom setting, 
                         I have developed skills in:
-                        <ol>
+                        <ul>
                             <li>
                                 HTML
                             </li>
@@ -74,54 +78,109 @@
                             </li>
                             <li>
                                 MERN Stack
-                                </li>
-                                <li>
-                                    Node/IoT
-                                </li>
-                            </ol>
-                            And more.
+                            </li>
+                            <li>
+                                Node/IoT
+                            </li>
+                        </ul>
+                            and more.
                             <br />
                             As a studious and detail-oriented candidate, upon employment I intend to further my education and career in software development by obtaining a Bachelors degree in Computer Science alongside work.
                             It is my goal to not only obtain a Bachelors in CS, but a Masters as well in order to one day become a Software Engineer or Architect.
                     </p>
                 </div>
                 <div id="my-photo">
-                    <img src="./assets/images/suit.JPG" alt="Jim Karavitis Professional Photo" />
+                    <img 
+                        src="./assets/images/suit.JPG" 
+                        alt="Jim Karavitis Professional Photo" 
+                    />
                 </div>
             </div>
         </article>
-        <!-- end about me -->
+
     </section>
     <!-- end hero -->
-    
-    <section id="contact-me">
-        <!-- contact me -->
-        <div id="flex-row">
-            <div id="">
-                <h3>How To Contact Me</h3>
-                <p>Leave a message and I will get in touch, or contact my phone/email directly.</p>
+
+    <!-- my work -->
+    <section id="my-work" class="apps">
+
+
+    </section>
+    <!-- end my work -->
+
+
+
+
+
+
+
+    <!-- contact -->
+    <section id="contact-me" class="contact">
+
+        <div class="flex-row">
+            <div>
+                <h2 class="title">
+                    How To Contact Me
+                </h2>
+            </div>
+            <div>
+                <h3 class="title reverse">
+                    Leave a message and I will get in touch, or take a look at my social media.
+                </h3>
             </div>
         </div>
+
+
+        <article id="form" class="contact-box">
+            <div class="subtitle">
+                <h3>Fill out this form and I will return your message.</h3>
+            </div>
+            <form id="form-message">
+                <label for="name">Your Name</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+                <label for="phone">Phone Number</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+                <label for="message">Leave your message here</label>
+                <input type="text" placeholder="Your Message" name="message" id="message" class="form-input" />
+            </form>
+        </article>
         
-        <div>
-            <nav id="hyper">
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/jim-karavitis-031275123/">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/JK1956">GitHub</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <!-- end contact me -->
+        <article id="direct" class="contact-box">
+            <div class="subtitle">
+                <h3>My contact info and social media.</h3>
+            </div>
+            <address id="direct-message">
+                <nav id="hyper" class>
+                    <ul>
+                        <li>
+                            Location: <a href="https://goo.gl/maps/ZpLtkSkrrzm5LvaE6">Wellington, FL</a>
+                        </li>
+                        <li>
+                            Phone: <a href="tel:203-893-1097">(203) 893-1097</a>
+                        </li>
+                        <li>
+                            Email: <a href="mailto:jnkara96@gmail.com">jnkara96@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jim-karavitis-031275123/">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/JK1956">GitHub</a>
+                        </li>
+                    </ul>
+                </nav>
+            </address>
+        </article>
+
     </section>
+    <!-- end contact me -->
 
     <!-- footer -->
     <footer>
         <div class="flex-row"></div>
-            <h2>🦾 Created by Jim Karavitis <span id="copy">&copy; 2021</span></h2>
+            <h2>🦾 Created by Jim Karavitis <span class="copy">&copy; 2021</span></h2>
         </div>
     </footer>
     <!-- end footer -->
