@@ -7,3 +7,8 @@ After tinkering with the HTML structure, I decided to create a rough hand-drawn 
 This was used as a guideline as the HTML for the homepage was written.
 
 ![Initial homepage outline sketch](assets/images/outline-sketch.jpg)
+
+
+### Sources
+
+* [Source of Shortcut Icon](https://www.subpng.com/png-2nxt63/)

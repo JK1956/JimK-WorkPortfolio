@@ -11,6 +11,7 @@
     />
     <title>Jim K | Developer Portfolio</title>
 </head>
+
 <body>
 
     <!-- navigation -->
@@ -46,7 +47,7 @@
         <article id="hero-info">
             <div class="flex-row">
                 <div id="">
-                    <!-- continue to update as skills, resume and portfolio improve -->
+                    <!-- CONTINUE TO UPDATE AS SKILLS, RESUME AND PORTFOLIO IMPROVE -->
                     <p>
                         In 2018, I graduated from the University of Connecticut with a Bachelor of Arts in Economics. 
                         After gaining work experience in Finance and Real Estate positions, I am now a full-stack software and web development student currently attending UCF's Coding Bootcamp.
@@ -102,28 +103,117 @@
     <!-- end hero -->
 
     <!-- my work -->
-    <section id="my-work" class="apps">
-
-
-    </section>
-    <!-- end my work -->
-
-
-
-
-
-
-
-    <!-- contact -->
-    <section id="contact-me" class="contact">
+    <section id="my-work" class="work">
 
         <div class="flex-row">
-            <div>
+            <div class="first-title">
+                <h2 class="title">
+                    My Work
+                </h2>
+            </div>
+            <div class="second-title">
+                <h3 class="title reverse">
+                    Samples of my deployed applications
+                </h3>
+            </div>
+        </div>
+
+        <div class="applications">
+            <article class="app big">
+                <!-- create landing page for undeployed apps -->
+                <a href="/">
+                    <!-- use image as css article background -->
+                    <img 
+                    src="assets/images/surf.jpg" 
+                    alt="Surfers surfing for MERN Stack"
+                    />
+                    <!-- use image as css article background -->
+                </a>
+                <div class="app-info">
+                    <h3 class="app-name">Surf Report</h3>
+                    <h4 class="app-features">Mern Stack</h4>
+                </div>
+            </article>
+            <div id="apps-bottom">
+                <article class="app small">
+                    <a href="https://jk1956.github.io/run-buddy/">
+                        <!-- use image as css article background -->
+                        <img 
+                        src="assets/images/run-buddy.JPG" 
+                        alt="Run Buddy Homepage"
+                        />
+                        <!-- use image as css article background -->
+                    </a>
+                    <div class="app-info">
+                        <h3 class="app-name">Run Buddy 🏃</h3>
+                        <h4 class="app-features">HTML / CSS</h4>
+                    </div>
+                </article>
+                <article class="app small">
+                    <!-- Finish Robot Gladiators for link to work! -->
+                    <a href="https://jk1956.github.io/Robot-Gladiators/">
+                        <!-- use image as css article background -->
+                        <img 
+                        src="assets/images/robot-gladiators.JPG" 
+                        alt="Robot Gladiators Homepage"
+                        />
+                        <!-- use image as css article background -->
+                    </a>
+                    <div class="app-info">
+                        <h3 class="app-name">Robot Gladiators</h3>
+                        <h4 class="app-features">HTML / JavaScript</h4>
+                    </div>
+                </article>
+                <article class="app small">
+                    <a href="https://jk1956.github.io/Horiseon-optimize/">
+                        <!-- use image as css article background -->
+                        <img 
+                        src="assets/images/horiseon.JPG" 
+                        alt="Horiseon Optimize SEO Homepage"
+                        />
+                        <!-- use image as css article background -->
+                    </a>
+                    <div class="app-info">
+                        <h3 class="app-name">Horiseon SEO Optimization</h3>
+                        <h4 class="app-features">HTML / CSS</h4>
+                    </div>
+                </article>
+                <article class="app small">
+                    <!-- create landing page for undeployed apps -->
+                    <a href="/">
+                        <!-- use image as css article background -->
+                        <img 
+                        src="assets/images/calculator.jpg" 
+                        alt="Calculator App"
+                        />
+                        <!-- use image as css article background -->
+                    </a>
+                    <div class= "app-info">
+                        <h3 class="app-name">Calculator</h3>
+                        <h4 class="app-features">React / JavaScript / CSS</h4>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- end my work -->
+    
+    
+    
+    
+    
+    
+    
+    <!-- contact -->
+    <section id="contact-me" class="contact">
+        
+        <div class="flex-row">
+            <div class="first-title">
                 <h2 class="title">
                     How To Contact Me
                 </h2>
             </div>
-            <div>
+            <div class="second-title">
                 <h3 class="title reverse">
                     Leave a message and I will get in touch, or take a look at my social media.
                 </h3>
@@ -135,7 +225,7 @@
             <div class="subtitle">
                 <h3>Fill out this form and I will return your message.</h3>
             </div>
-            <form id="form-message">
+            <form>
                 <label for="name">Your Name</label>
                 <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
                 <label for="email">Email Address</label>
