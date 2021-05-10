@@ -52,11 +52,16 @@ header nav ul {
 
 header nav ul li {
     padding: 10px 12px;
-    margin: 0px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     font-weight: normal;
     font-size: 1.7vw;
     border-bottom: solid 5px;
     border-color: rgb(160, 201, 202);
+}
+
+p {
+    font-family: verdana;
 }
 
 footer {
@@ -75,8 +80,68 @@ footer h2 {
 
 /* Styling for class elements */
 .hero {
+    margin: 0 auto;
+    width: 100%;
     background-image: url("./images/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+h2 {
+    color:rgb(231, 243, 243);
+    width: 25%;
+    text-align: right;
+    font-size: 35px;
+    line-height: 1.2;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color:rgb(30, 33, 44);
+    width: 25%;
+    text-align: right;
+    font-size: 20px;
+    line-height: 1.2;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-info {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(75, 87, 87);
+    padding: 20px;
+    color: rgb(204, 204, 204);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(30, 33, 44, 0.99);
+    border-radius: 15px;
+}
+
+
+.hero-info img {
+    height: 30%;
+    width: 35%;
+    border-color:rgba(30, 33, 44, 0.99);
+}
+
+.flex-row {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
 
 
@@ -85,4 +150,10 @@ footer h2 {
 #name {
     background-color: rgba(32, 67, 87, 0.9);
     padding: 5px 10px;
+}
+
+#text {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
 }
