@@ -3,7 +3,7 @@ Ongoing portfolio of sample applications begun in Week 2.
 
 # Link to deployed app
 
-* [Link to deployed homepage](https://github.com/JK1956/JimK-WorkPortfolio/settings/pages)
+* [Link to deployed homepage](https://jk1956.github.io/JimK-WorkPortfolio/)
 
 
 ### Initial rough outline sketch
