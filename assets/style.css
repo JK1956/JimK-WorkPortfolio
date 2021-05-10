@@ -23,10 +23,9 @@ body {
 header {
     padding: 20px 75px 20px 0;
     display: flex;
-    background: rgba(30, 33, 44, 0.99);
+    background: rgba(30, 33, 44, 0.97);
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
     top: 0%;
 }
@@ -60,15 +59,20 @@ header nav ul li {
     border-color: rgb(160, 201, 202);
 }
 
+section {
+    padding: 20px;
+}
+
 p {
     font-family: verdana;
 }
+
 
 footer {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    background:rgba(30, 33, 44, 0.99);
+    background:rgb(30, 33, 44);
     width: 100%;
     padding: 40px 35px;
 }
@@ -79,6 +83,25 @@ footer h2 {
 }
 
 /* Styling for class elements */
+
+.title {
+    width: 18%;
+    color: rgba(30, 33, 44);
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: solid 4px;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.second {
+    color:rgb(219, 87, 83);
+    font-size: 20px;
+    border-color: rgba(30, 33, 44, 0.99);
+}
+
 .hero {
     margin: 0 auto;
     width: 100%;
@@ -86,59 +109,44 @@ footer h2 {
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-h2 {
-    color:rgb(231, 243, 243);
-    width: 25%;
-    text-align: right;
-    font-size: 35px;
-    line-height: 1.2;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h3 {
-    color:rgb(30, 33, 44);
-    width: 25%;
-    text-align: right;
-    font-size: 20px;
-    line-height: 1.2;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-info {
-    width: 60%;
-    margin: 0 auto;
+    width: 65%;
+    padding: 20px 35px;
     background-color: rgb(75, 87, 87);
-    padding: 20px;
     color: rgb(204, 204, 204);
     border-style: solid;
     border-width: 1px;
     border-color: rgba(30, 33, 44, 0.99);
-    border-radius: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .hero-info img {
-    height: 30%;
     width: 35%;
+    border: solid 3px;
     border-color:rgba(30, 33, 44, 0.99);
 }
 
 .flex-row {
-    width: 40%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+}
+
+.left {
+    justify-content: left;
+}
+
+.right {
+    justify-content: right;
 }
 
 
@@ -153,7 +161,14 @@ h3 {
 }
 
 #text {
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 55%;
+} 
+
+#text ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+#top {
+    color: rgb(231, 243, 243);
 }
