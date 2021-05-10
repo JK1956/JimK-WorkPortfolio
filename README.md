@@ -1,6 +1,10 @@
 # JimK-WorkPortfolio
 Ongoing portfolio of sample applications begun in Week 2.
 
+# Link to deployed app
+
+* [Link to deployed homepage](https://github.com/JK1956/JimK-WorkPortfolio/settings/pages)
+
 
 ### Initial rough outline sketch
 After tinkering with the HTML structure, I decided to create a rough hand-drawn sketch of the basic outline.
