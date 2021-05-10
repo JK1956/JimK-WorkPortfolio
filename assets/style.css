@@ -1,14 +1,88 @@
 /* CSS Styling for Jim K Work Portfolio Application */
 
+/* Styling for all pages */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
 /* Styling for semantic elements */
 
+a {
+    color: rgb(160, 201, 202);
+    text-decoration: none;
+}
+
 body {
-    background-color: rgb(rgb(186, 221, 209), green, blue);
+    color: rgb(rgb(231, 243, 243), green, blue);
+    font-family: Tahoma;
+}
+
+header {
+    padding: 20px 75px 20px 0;
+    display: flex;
+    background: rgba(30, 33, 44, 0.99);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+}
+
+header h1 {
+    font-size: 46px;
+    font-weight: lighter;
+    color:rgb(219, 87, 83);
+    padding-left: 75px;
+}
+
+header h1 span {
+    color:rgb(231, 243, 243)
+}
+
+header nav ul {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px 12px;
+    margin: 0px 5px;
+    font-weight: normal;
+    font-size: 1.7vw;
+    border-bottom: solid 5px;
+    border-color: rgb(160, 201, 202);
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background:rgba(30, 33, 44, 0.99);
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    color:rgb(231, 243, 243);
+    font-weight: lighter;
 }
 
 /* Styling for class elements */
+.hero {
+    background-image: url("./images/hero-img.jpg");
+}
 
 
 
 /* Styling for ID elements */
 
+#name {
+    background-color: rgba(32, 67, 87, 0.9);
+    padding: 5px 10px;
+}
